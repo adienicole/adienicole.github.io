@@ -1,34 +1,88 @@
 {
-  "name": "tracker",
-  "version": "1.0.0",
-  "description": "Track project information from design to assembly.",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      "accepts@1.3.5",
+      "C:\\Users\\jhouck\\Documents\\Projects\\Tracker"
+    ]
+  ],
+  "_from": "accepts@1.3.5",
+  "_id": "accepts@1.3.5",
+  "_inBundle": false,
+  "_integrity": "sha1-63d99gEXI6OxTopywIBcjoZ0a9I=",
+  "_location": "/accepts",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "accepts@1.3.5",
+    "name": "accepts",
+    "escapedName": "accepts",
+    "rawSpec": "1.3.5",
+    "saveSpec": null,
+    "fetchSpec": "1.3.5"
   },
+  "_requiredBy": [
+    "/express"
+  ],
+  "_resolved": "https://registry.npmjs.org/accepts/-/accepts-1.3.5.tgz",
+  "_spec": "1.3.5",
+  "_where": "C:\\Users\\jhouck\\Documents\\Projects\\Tracker",
+  "bugs": {
+    "url": "https://github.com/jshttp/accepts/issues"
+  },
+  "contributors": [
+    {
+      "name": "Douglas Christopher Wilson",
+      "email": "doug@somethingdoug.com"
+    },
+    {
+      "name": "Jonathan Ong",
+      "email": "me@jongleberry.com",
+      "url": "http://jongleberry.com"
+    }
+  ],
+  "dependencies": {
+    "mime-types": "~2.1.18",
+    "negotiator": "0.6.1"
+  },
+  "description": "Higher-level content negotiation",
+  "devDependencies": {
+    "eslint": "4.18.1",
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-markdown": "1.0.0-beta.6",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1",
+    "istanbul": "0.4.5",
+    "mocha": "~1.21.5"
+  },
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "files": [
+    "LICENSE",
+    "HISTORY.md",
+    "index.js"
+  ],
+  "homepage": "https://github.com/jshttp/accepts#readme",
+  "keywords": [
+    "content",
+    "negotiation",
+    "accept",
+    "accepts"
+  ],
+  "license": "MIT",
+  "name": "accepts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JamesH1015/Tracker.git"
+    "url": "git+https://github.com/jshttp/accepts.git"
   },
-  "keywords": [
-    "express",
-    "REST",
-    "applications",
-    "mondodb",
-    "database",
-    "web"
-  ],
-  "author": "James Houck",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JamesH1015/Tracker/issues"
+  "scripts": {
+    "lint": "eslint --plugin markdown --ext js,md .",
+    "test": "mocha --reporter spec --check-leaks --bail test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
   },
-  "homepage": "https://github.com/JamesH1015/Tracker#readme",
-  "dependencies": {
-    "body-parser": "~1.18.3",
-    "cookie-parser": "~1.4.3",
-    "express": "~4.16.3",
-    "jsonwebtoken": "~8.3.0",
-    "mongodb": "~3.1.3"
-  }
+  "version": "1.3.5"
 }
