@@ -53,7 +53,7 @@
 
 //  Serve Default Route
     ws.get('/', function(req, res) {
-        res.sendFile(__dirname + conf.apps + '/welcome.html')
+        res.sendFile(__dirname + conf.apps + '/index.html')
     })
 
 /** AUTHENTICATION **/
