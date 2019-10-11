@@ -4,7 +4,7 @@
   "token": "melekalikimaka",
   "apps": "/page_apps",
   "mongo": {
-    "path": "mongodb://127.0.0.1:64737/",
+    "path": "mongodb://127.0.0.1:64737",
     "database": "tracker"
   }
 }
