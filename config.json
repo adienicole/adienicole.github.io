@@ -1,10 +1,10 @@
 {
   "name": "Tracker",
   "port": 8080,
-  "token": "melekalikimaka",
+  "token": "orchardview1",
   "apps": "/page_apps",
   "mongo": {
-    "path": "mongodb://127.0.0.1:27017/",
+    "path": "mongodb+srv://cluster0-kaxsn.gcp.mongodb.net/test/",
     "database": "tracker"
   }
 }
