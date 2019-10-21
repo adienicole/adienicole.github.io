@@ -1,5 +1,3 @@
-permalink: /index.html
-
 # Tracker #
 Track project information from design to assembly.
 
