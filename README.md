@@ -1,4 +1,4 @@
-permalink: /index.html
+permalink: /welcome.html
 
 # Tracker #
 Track project information from design to assembly.
