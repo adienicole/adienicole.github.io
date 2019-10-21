@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/adienicole/adinicole.github.io.git/issues"
   },
-  "homepage": "https://github.com/JamesH1015/Tracker#readme",
+  "homepage": "https://github.com/adienicole/adinicole.github.io.git#readme",
   "dependencies": {
     "body-parser": "~1.18.3",
     "cookie-parser": "~1.4.3",
