@@ -1,7 +1,7 @@
 {
   "name": "Tracker",
-  "port": 8080,
-  "token": "melekalikimaka",
+  "port": 27017,
+  "token": "",
   "apps": "/page_apps",
   "mongo": {
     "path": "mongodb://127.0.0.1:27017/",
