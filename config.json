@@ -1,6 +1,6 @@
 {
   "name": "Tracker",
-  "port": 8080,
+  "port": 27017,
   "token": "",
   "apps": "/page_apps",
   "mongo": {
